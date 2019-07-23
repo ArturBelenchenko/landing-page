@@ -1,0 +1,14 @@
+.contacts {
+
+    @extend %section;
+
+    &__title {
+
+        @extend %section-title;
+    }
+
+    &__description {
+
+        @extend %section-description;
+    }
+}

@@ -1,0 +1,51 @@
+html {
+    font-family: $font-main;
+    font-size: $font-size;
+}
+
+body {
+    font-family: $font-main;
+    color: $color-gray;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    @extend %header;
+}
+h2 {
+    @extend %header;
+}
+h3 {
+    @extend %header;
+}
+h4 {
+    @extend %header;
+}
+h5 {
+    @extend %header;
+}
+h6 {
+    @extend %header;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    color: $color-dark;
+
+    &:hover,
+    &focus {
+        text-decoration: none;
+        color: $color-accent;
+    }
+}
+
+.back2top {
+    @extend %back2top;
+}
